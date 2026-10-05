@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="flow" x1="100" y1="80" x2="1100" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#8D83FF"/><stop offset="1" stop-color="#54D6C9"/></linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9" fill="#7784A5"/></marker>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="#101629"/>
+  <text x="48" y="47" fill="#A9B3CD" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">A SMALL, PRIVATE API PIPELINE</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="48" y="91" width="290" height="189" rx="20" fill="#171F36" stroke="#394565" stroke-width="1.5"/>
+    <rect x="72" y="115" width="42" height="26" rx="8" fill="#29274C"/>
+    <text x="82" y="133" fill="#B0A8FF" font-size="12" font-weight="700">01</text>
+    <text x="72" y="180" fill="#F1F3FE" font-size="24" font-weight="700">CodeStory UI</text>
+    <text x="72" y="211" fill="#AAB2CB" font-size="15">Problem · source · style</text>
+    <text x="72" y="246" fill="#71809F" font-size="13">React + Vite</text>
+
+    <path d="M350 183h90" stroke="#7784A5" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="352" y="165" fill="#8793B0" font-size="12">POST /api/explain</text>
+
+    <rect x="457" y="91" width="290" height="189" rx="20" fill="#171F36" stroke="#4C5279" stroke-width="1.5"/>
+    <rect x="481" y="115" width="42" height="26" rx="8" fill="#252D4A"/>
+    <text x="491" y="133" fill="#85D9D0" font-size="12" font-weight="700">02</text>
+    <text x="481" y="180" fill="#F1F3FE" font-size="24" font-weight="700">Express API</text>
+    <text x="481" y="211" fill="#AAB2CB" font-size="15">Keeps the API key private</text>
+    <text x="481" y="246" fill="#71809F" font-size="13">Validate · route · parse</text>
+
+    <path d="M759 183h90" stroke="#7784A5" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="759" y="165" fill="#8793B0" font-size="12">secret server request</text>
+
+    <rect x="866" y="91" width="286" height="189" rx="20" fill="#152D32" stroke="#4DD6C5" stroke-width="1.5"/>
+    <rect x="890" y="115" width="42" height="26" rx="8" fill="#1D4548"/>
+    <text x="900" y="133" fill="#85E7DD" font-size="12" font-weight="700">03</text>
+    <text x="890" y="180" fill="#F1F3FE" font-size="24" font-weight="700">OpenRouter</text>
+    <text x="890" y="211" fill="#AAB2CB" font-size="15">Primary + fallback models</text>
+    <text x="890" y="246" fill="#718F91" font-size="13">Structured explanation</text>
+  </g>
+  <path d="M77 315h1046" stroke="url(#flow)" stroke-width="2" stroke-dasharray="4 8" opacity=".8"/>
+  <text x="48" y="343" fill="#8290AA" font-family="Arial,sans-serif" font-size="13">The browser never receives OPENROUTER_API_KEY. Local development proxies /api from Vite to Express.</text>
+</svg>
