@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8278FF"/><stop offset="1" stop-color="#4DD6C5"/></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="#7885A8"/></marker></defs>
+  <rect width="1200" height="300" rx="24" fill="#101629"/>
+  <text x="48" y="48" fill="#A9B3CD" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">FROM QUESTION TO “I GET IT”</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="48" y="82" width="235" height="154" rx="18" fill="#171F36" stroke="#343E5C"/>
+    <text x="72" y="118" fill="#8D83FF" font-size="13" font-weight="700" letter-spacing="1.4">01 · BRING IT</text>
+    <text x="72" y="157" fill="#F1F3FE" font-size="22" font-weight="700">Problem + code</text>
+    <text x="72" y="190" fill="#AAB2CB" font-size="15">Your question, your solution.</text>
+    <path d="M295 158h52" stroke="#7885A8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="363" y="82" width="250" height="154" rx="18" fill="#171F36" stroke="#343E5C"/>
+    <text x="387" y="118" fill="#61D4C8" font-size="13" font-weight="700" letter-spacing="1.4">02 · MAKE SENSE</text>
+    <text x="387" y="157" fill="#F1F3FE" font-size="22" font-weight="700">Explain the idea</text>
+    <text x="387" y="190" fill="#AAB2CB" font-size="15">Plain words, tied to code.</text>
+    <path d="M625 158h52" stroke="#7885A8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="693" y="82" width="218" height="154" rx="18" fill="#171F36" stroke="#343E5C"/>
+    <text x="717" y="118" fill="#61D4C8" font-size="13" font-weight="700" letter-spacing="1.4">03 · WATCH IT</text>
+    <text x="717" y="157" fill="#F1F3FE" font-size="22" font-weight="700">Trace the state</text>
+    <text x="717" y="190" fill="#AAB2CB" font-size="15">Scenes, values, branches.</text>
+    <path d="M923 158h52" stroke="#7885A8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="991" y="82" width="161" height="154" rx="18" fill="#171F36" stroke="#343E5C"/>
+    <text x="1015" y="118" fill="#F3C779" font-size="13" font-weight="700" letter-spacing="1.4">04 · GO FURTHER</text>
+    <text x="1015" y="157" fill="#F1F3FE" font-size="22" font-weight="700">Edge cases</text>
+    <text x="1015" y="190" fill="#AAB2CB" font-size="15">Limits + complexity.</text>
+  </g>
+  <path d="M73 263h1050" stroke="url(#a)" stroke-width="2" stroke-dasharray="3 9" opacity=".8"/>
+</svg>
