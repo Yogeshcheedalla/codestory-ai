@@ -214,4 +214,4 @@ The included `.gitignore` excludes dependencies, build output, local environment
 
 ## License
 
-No license file is included yet. Add a `LICENSE` before presenting this repository as open source; without one, normal copyright restrictions apply.
+CodeStory AI's original project code and documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Cheedalla Yogesh. The license does not replace the separate licenses of third-party dependencies or the terms for external AI models and services.
